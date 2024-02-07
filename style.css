@@ -2117,7 +2117,7 @@ html {
     --font-size--5xl: 9rem;
     --fluid-fontsize--medium: 4.5vw;
     --border-radius--button-border-radius: 50vw;
-    --fluid-fontsize--3xl: 18vw;
+    --fluid-fontsize--3xl: 10vw;
     --fluid-fontsize--xl: 7vw;
   }
   
@@ -2886,21 +2886,19 @@ html {
   }
   
   .hero-image {
-    height: 120%;
+    height: 100%;
+    width: 100%;
     position: absolute;
   }
-  .image-wrapper2 {
-    aspect-ratio: 26 / 13;
-    border-radius: var(--border-radius--image-border-radius);
-    position: relative;
-    overflow: hidden;
-  }
+ 
   
   .image-wrapper {
-    aspect-ratio: 26 / 13;
+    aspect-ratio: 22 / 15;
     border-radius: var(--border-radius--image-border-radius);
     position: relative;
     overflow: hidden;
+    width: 100%;
+    height: 100%;
   }
   
   .hero-image-revealer {
@@ -2946,7 +2944,7 @@ html {
   
   .parallax-image {
     width: 100%;
-    height: 120%;
+    height: 100%;
     display: inline-block;
     position: absolute;
     overflow: hidden;
@@ -3274,7 +3272,7 @@ html {
   }
   
   .project-image-wrapper {
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 9 / 6;
     border-radius: var(--border-radius--image-border-radius);
     justify-content: center;
     align-items: center;
@@ -3481,7 +3479,7 @@ html {
     font-size: var(--fluid-fontsize--3xl);
     letter-spacing: -.5vw;
     font-weight: 600;
-    line-height: 80%;
+    line-height: 120%;
     display: inline-block;
   }
   
